@@ -1,0 +1,39 @@
+/* секція 1 */
+.buttons .button {
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bgc);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.buttons .button:focus,
+.buttons .button:hover {
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.project {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-item {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
